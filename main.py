@@ -1,15 +1,15 @@
 def check(point):
     global w
     if 80 <= point <= 100:
-        w = 4.0
+        w = A
     elif 70 <= point:
-        w = 3.0
+        w = B
     elif 60 <= point:
-        w = 2.0
+        w = C
     elif 50 <= point:
-        w = 1.0
+        w = D
     elif 0 <= point:
-        w = 0
+        w = F
     else:
         pass
     return w
